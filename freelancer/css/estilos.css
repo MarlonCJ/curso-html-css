@@ -1,4 +1,14 @@
 
+:root{
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris:#757575;
+
+}
+
+
 /* este es un hack para poder utilizar rem de una manera mas fácil
 1 rem = 10px */
 
