@@ -1,0 +1,55 @@
+
+
+¿Qué es Especificidad?
+
+-Es como el navegador va a mostrar el CSS de acuerdo
+ a que tan especifico es el selector que hemos creado.
+
+- CSS es en cascada, eso no significa que si un selector
+aparece después será tomado en cuenta sino más bien
+su especificidad.
+
+
+misma especificidad
+
+En este caso tenemos la misma especificidad y aqui aplica el estilo 
+en cascada significa que el estilo ubicado mas en la parte inferior
+reemplazará al de la parte superior
+
+p{
+    color: red;
+}
+
+
+p{
+    color: blue;
+}
+
+
+Aplicando especificidad
+
+En este caso estamo siendo mas especificos al momento de indicar el primer
+selector, asi que se aplicará ese estilo
+
+p.parrafo {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+
+important: este pasara encima de todos los demas
+
+p#parrafo{
+    color: blue;
+}
+
+p{
+    color: red!important;
+}
+
+
+NOTA: SI UN ELEMENTO TIENE UN SELECTOR MÁS ESPECÍFICO NO IMPORTA
+MUCHO DONDE HAYA SIDO DECLARADO, CSS DECIDIRÁ POR SU ESPECIFICIDAD
