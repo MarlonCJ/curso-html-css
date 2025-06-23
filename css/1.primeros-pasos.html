@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Utilizar css mediante un etiqueta: este css será valido solo para la paguina en la que se utulice la etiqueta -->
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+    </style>
+
+    <!-- si queremos que cargue mas rapido las hojas de estilo -->
+    <link rel="preload" href="estilos/style.css" as="style">
+
+    <!-- hoja de estilos externa -->
+     <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+
+    <!-- estilos por etiqueta -->
+    <h1>Titulo principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quae assumenda dolores perferendis ex maiores libero, ipsa in. Laboriosam, qui.</p>
+
+    <!-- estilos en linea -->
+
+    <p style="color:blue;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quasi explicabo natus doloremque molestiae officiis sit consequatur, harum optio alias?</p>
+
+    <!-- estilos hoja de estilos externa -->
+
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dignissimos ut ipsam voluptate non officiis culpa tempore, rem molestias reiciendis, rerum amet eaque sequi ipsa sit, nisi eos. Consequatur at voluptate maxime blanditiis velit porro quaerat repellendus similique natus. Iusto voluptatem voluptas doloremque quaerat neque iure unde molestiae quam quae!</p>
+
+
+</body>
+</html>
