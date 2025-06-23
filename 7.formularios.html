@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <!-- form: permite crear un formulario -->
+    <form>
+
+        <!-- fieldset: agrupa los elementos dentro del formulario -->
+        <fieldset>
+
+            <!-- lengend: se utiliza para agregar un titulo o leyenda a un grupo de elementos relacionados dentro del formulario -->
+            <legend>Mi formulario</legend>
+
+            <!-- div: contenedor no semantico sirve como comodin para dar estilos y organizar -->
+            
+            <!-- input:text -->
+            <div> 
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Su nombre">
+            </div>
+
+            <!-- input:tel -->
+            <div class="">
+                <label for="tel">Teléfono</label>
+                <input type="tel" name="tel" id="tel" placeholder="Su teléfono">
+            </div>
+
+            <!-- input:email -->
+            <div class="">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name="email" id="email" placeholder="Su Correo Electrónico">
+            </div>
+
+            <!-- input:checkbox -->
+            <div class="">
+                <span>Conocimientos:</span>
+                <div>
+                    <input type="checkbox" name="html" id="html" value="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="css" id="css" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="javascript" id="javascript" value="javascript">
+                    <label for="javascript">Javascript</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="php" id="php" value="php">
+                    <label for="php">PHP</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="sql" id="sql" value="sql">
+                    <label for="sql">SQL</label>
+                </div>
+            </div>
+
+            <!-- Atributos explicados:
+            type="checkbox": Define que es una casilla de verificación.
+
+            id="opcion1": Identificador único; se enlaza con <label> para mejorar accesibilidad.
+
+            name="opcion1": Nombre del campo que se enviará en el formulario.
+
+            value="valor1": Valor que se enviará si el checkbox está marcado.
+
+            <label for="opcion1">: Asocia el texto “Opción 1” al checkbox con id="opcion1"; permite hacer clic en el texto para marcar la casilla. -->
+        
+            <!-- input:radio -->
+
+            <div>
+                <span>Estado Civil</span>
+                <div>
+                    <input type="radio" name="soltero" id="soltero" value="soltero">
+                    <label for="soltero">Soltero</label>
+                </div>
+                <div>
+                    <input type="radio" name="casado" id="casado" value="casado">
+                    <label for="casado">Casado</label>
+                </div>
+                <div class="">
+                    <input type="radio" name="divorciado" id="divorciado" value="divorciado">
+                    <label for="divorciado">Divorciado</label>
+                </div>
+                <div class="">
+                    <input type="radio" name="viudo" id="viudo" value="viudo">
+                    <label for="viudo">Viudo</label>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
