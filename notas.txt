@@ -96,6 +96,14 @@ media queries
 
 }
 
+Estandar de Medidas:
+
+480px : movil
+768px : tablet
+1140px : portatil
+1400px : escritorio
+
+
 ====================================================================
 
 Automatizar : atajos con visual studio code
@@ -106,3 +114,10 @@ escribir:
 
     - Snippets: Configure Snippets
     - Seleccionar la tecnologia  ejemplo: css.json
+
+    ecribir codigo: 
+
+    "Crea un Media Querie" : {
+		"prefix" : "mq",
+		"body" : "@media (min-width: $1) {\n   $2\n}"
+	}
