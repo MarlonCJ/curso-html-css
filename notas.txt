@@ -134,3 +134,13 @@ Todo en CSS es un caja, pero como sea esa caja depende de 4 cosas:
 El tamaño de lo que se muestra en pantalla esta delimitando por 4 cosas: 
 
 tamaño de contenido, tamaño de relleno (padding), tamaño del borde y el margen
+
+Si tienes el Siguiente Selector:
+
+    .cliente {
+        padding: 20px;
+        width: 200px;
+        border: 10px solid red;
+    }
+
+Tu elemento medirá 260px: 200 del width, 40 del padding y 20 del border.
