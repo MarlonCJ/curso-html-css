@@ -121,3 +121,16 @@ escribir:
 		"prefix" : "mq",
 		"body" : "@media (min-width: $1) {\n   $2\n}"
 	}
+
+
+=====================================================================
+
+CSS BOX MODEL
+
+Todo en CSS es un caja, pero como sea esa caja depende de 4 cosas: 
+
+¿Qué es CSS Box Model?
+
+El tamaño de lo que se muestra en pantalla esta delimitando por 4 cosas: 
+
+tamaño de contenido, tamaño de relleno (padding), tamaño del borde y el margen

@@ -4,3 +4,14 @@ HERRAMIENTAS
 DEVELOP Responsive WEB APP: Permite ver un sitio en diferentes medidadas
 
 https://responsively.app/download
+
+
+=================================
+
+Snippets Modelo Caja
+
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+Modifica el comportamiento de medidas de caja
+
+==================================
