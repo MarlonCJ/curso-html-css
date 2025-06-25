@@ -74,3 +74,35 @@ USO
 .parrafor{
     var(--blanco);
 }
+
+====================================================================
+
+¿Qué es Responsive WEB Desing?
+
+Es un enfoque que nos dice que nuestros diseños deberán adaptarse a las interacciones del usuario y la resolucion
+que utilizan.
+
+Los sitios deberán adaptarse a celulares, tablets, laptops, computadoras de escritorio, televisores.
+
+¿Cómo logro que mi sitio sea Responsive?
+
+media queries
+
+@media(min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+====================================================================
+
+Automatizar : atajos con visual studio code
+
+ctrol + shift + p
+
+escribir: 
+
+    - Snippets: Configure Snippets
+    - Seleccionar la tecnologia  ejemplo: css.json
