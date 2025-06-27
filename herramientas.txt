@@ -15,3 +15,7 @@ https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 Modifica el comportamiento de medidas de caja
 
 ==================================
+
+CanIuse: Soperte para navegadores de las clases css
+
+https://caniuse.com/
