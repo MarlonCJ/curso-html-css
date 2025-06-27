@@ -15,7 +15,8 @@ html{
     font-size: 62.5%;
 }
 
-/* apply a natural box layout model to all elements, but allowing components to change */
+/* Globales */
+
 html {
     box-sizing: border-box;
 }
@@ -29,6 +30,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+/* tipografia */
 
 h1{
     font-size: 3.8rem;
@@ -76,6 +78,8 @@ h1,h2,h3{
     }
 }
 
+/* Navegacion Principal */
+
 .nav-bg{
     background-color: var(--secundario);
 }
@@ -116,6 +120,8 @@ h1,h2,h3{
 @media (min-width:480px){
 
 }
+
+/* hero */
 
 .hero{
     background-image: url(../img/hero.jpg);
