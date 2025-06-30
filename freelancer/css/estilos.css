@@ -33,6 +33,11 @@ body{
     background-image: linear-gradient(to top,var(--grisClaro) 0% ,var(--blanco) 100%);
 }
 
+.contenedor{
+    max-width: 120rem;
+    margin:0 auto;
+}
+
 .boton{
     background-color: var(--secundario);
     color:var(--blanco);
@@ -45,12 +50,17 @@ body{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media(min-width: 768px){
     .boton{
         width: auto;
     }
+}
+
+.boton:hover{
+    cursor:pointer;
 }
 
 .sombra{
@@ -79,15 +89,31 @@ h1,h2,h3{
     text-align: center;
 }
 
+/* titulos */
+
 .titulo span{
     font-size: 2rem;
 }
 
-.contenedor{
-    max-width: 120rem;
-    margin:0 auto;
+/* utilidades */
+
+.w-sm-100{
+    width: 100%;
 }
 
+@media(min-width:768px ){
+   .w-sm-100{
+    width: auto;
+   }
+}
+
+.flex{
+    justify-content: end;
+}
+
+.alinear-derecha{
+    text-align: right;
+}
 
 /* Navegacion Principal */
 
@@ -226,3 +252,26 @@ h1,h2,h3{
     margin-bottom: 2rem;
     color: var(--primario);
 }
+
+.contenedor-campos{
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+

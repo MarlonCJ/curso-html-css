@@ -264,3 +264,25 @@ segundo
 .formulario{
     width: min(60rem, 100%); 
 }
+
+
+==============================================
+
+SELECTORES
+**********
+
+Selector de atributo
+////////////////////
+
+
+input[type="text"]{
+
+}
+
+input[type="tel"]{
+    
+}
+
+
+
+
