@@ -252,4 +252,15 @@ Utiliza Floats:
 Ya no se recomienda utilizar floats
 
 
+==============================================
 
+FUNCIONES CSS
+
+min(); TOMAR EL VALOR MAS PEQUEÑO PARA APLICAR EL ESTILO
+
+Utiliza el valor más pequeño hace una comparacion entre el primer valor y el
+segundo
+
+.formulario{
+    width: min(60rem, 100%); 
+}
