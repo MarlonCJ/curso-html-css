@@ -1,5 +1,6 @@
 
 ¿Qué es Especificidad?
+**********************
 
 -Es como el navegador va a mostrar el CSS de acuerdo
  a que tan especifico es el selector que hemos creado.
@@ -56,6 +57,7 @@ MUCHO DONDE HAYA SIDO DECLARADO, CSS DECIDIRÁ POR SU ESPECIFICIDAD
 ==================================================================
 
 PSUEDO SELECTORES
+*****************
 
 INICIAR CON : PUNTOS, SON ELEMENTOS QUE NO EXISTEN COMO TAL EN HTML
 
@@ -78,6 +80,7 @@ USO
 ====================================================================
 
 ¿Qué es Responsive WEB Desing?
+******************************
 
 Es un enfoque que nos dice que nuestros diseños deberán adaptarse a las interacciones del usuario y la resolucion
 que utilizan.
@@ -107,6 +110,7 @@ Estandar de Medidas:
 ====================================================================
 
 Automatizar : atajos con visual studio code
+*******************************************
 
 ctrol + shift + p
 
@@ -126,6 +130,7 @@ escribir:
 =====================================================================
 
 CSS BOX MODEL
+*************
 
 Todo en CSS es un caja, pero como sea esa caja depende de 4 cosas: 
 
@@ -144,3 +149,68 @@ Si tienes el Siguiente Selector:
     }
 
 Tu elemento medirá 260px: 200 del width, 40 del padding y 20 del border.
+
+===========================================================================
+
+APRENDIENDO GRID
+****************
+
+CSS GRID te permite definir la ubicación y tamaño de los elementos de tu sitio WEB
+
+FLEXBOX
+
+El contenido crece automáticamente
+1 dimension (row o column)
+
+CSS GRID
+
+El contenido se agrupa dentro de un área definida
+2 dimensiones
+
+En Cierta forma es como una tabla de HTML, con la ventaja de mayor flexibilidad y control sobre tu 
+diseño.
+
+¿Entonces CSS Grid es mejor?
+
+Algunos diseños son más fáciles en CSS Grid que en Flexbox y otros son más sencillos en Flexbox que en 
+CSS Grid.
+
+Los puedes utilizar juntos en un mismo diseño.
+
+------------
+Iniciar grid
+------------
+
+activa grid se le aplica al contenedor padre
+
+display: grid;
+
+---------
+Columnas: column
+---------
+
+2 columnas de 300px.
+
+grid-template-columns: 300px 300px;
+
+3 columnas
+
+grid-template-columns: 33.3% 33.3% 33.3%;
+grid-template-columns: 1fr 1fr 1fr; // se ajusta al espacio
+grid-template-columns: repeat(3. 1fr); // Forma abreviada 3 columnas de 1fr
+
+------------
+Filas : row
+------------
+
+1 columna de 200px , 1 de 800px
+
+grid-template-rows: 200px 800px;
+
+-------------
+Abreviaciones:
+-------------
+
+columnas y filas
+
+grid: 200px 800px / 300px 300px;
