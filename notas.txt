@@ -214,3 +214,42 @@ Abreviaciones:
 columnas y filas
 
 grid: 200px 800px / 300px 300px;
+
+
+-----------
+Utilidades:
+-----------
+
+Separacion Gap
+
+column-gap: 1rem;
+
+
+
+
+============================================================
+
+Cuando Utilizar CSS GRID, FLEXBOX y FLOATS
+******************************************
+
+Utilizar FLEXBOX
+
+Para alineación o distribución de los elementos que estarán dentro de contenedores
+
+ejemplo: una barra de navegacion
+
+-----------------------------
+
+Utiliza CSS GRID
+
+Para definir el layout de tu sitio web, como pueden ser las columnas o contenedores de elementos
+
+
+-----------------------------
+
+Utiliza Floats:
+
+Ya no se recomienda utilizar floats
+
+
+
