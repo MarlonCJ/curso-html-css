@@ -19,3 +19,17 @@ Modifica el comportamiento de medidas de caja
 CanIuse: Soperte para navegadores de las clases css
 
 https://caniuse.com/
+
+
+==================================
+
+NORMALIZE: Permite aplicar estilos por defecto para un proyecto inicial
+
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+
+
+=====================================
+
+Google Fonts: Sitio para fuentes de texto
+
+https://fonts.google.com/
