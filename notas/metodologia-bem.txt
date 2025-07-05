@@ -1,0 +1,57 @@
+
+================
+METODOLOGIA BEM 
+================
+
+BLOCK ELEMENT MODIFIER
+
+QUE ES BEM?
+
+ES UNA METODOLOGÍA PARA CREAR CÓDIGO REUTILIZABLE Y ORDENADO EN TUS PROYECTOS CON CSS
+
+HAY QUE SEGUIR LAS CONVENCIONES DE BEM
+
+GRACIAS A ESTAS CONVENCIONES SE EVITA LA COLISIÓN DE NOMBRES
+
+
+REGLAS DE BEM
+
+*******
+BLOQUES
+*******
+
+SON UN CONTENEDOR, SI UNA SECCIÓN POR SI SOLA ES SIGNIFICATIVA Y NO REQUIERE DE OTRAS SECCIONES PARA SU APARIENCIA
+(CSS) DEBERÁ IR EN UN BLOQUE.
+
+<div class="cliente">...</div>
+
+.cliente{ ... }
+
+*********
+ELEMENTOS
+*********
+
+Son parte de un bloque, depende del bloque y no es por si solo significativo, tienen la caracteristica de que 
+utilizan el nombre del bloque y despues doble guion bajo.
+
+<p class="cliente__nombre">...</p>
+
+.cliente__nombre{ ... }
+
+*************
+MODIFICADORES
+*************
+
+¿Un bloque o elemento tendrá una variante? Se utiliza un modificador que es una "bandera" que avisa que ese 
+elemento tendrá un diseño diferente.
+
+<p class="cliente__nombre--ceo"> ... </p>
+
+.cliente__nombre--ceo{
+    ....
+}
+
+
+
+
+
