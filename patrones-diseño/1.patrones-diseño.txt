@@ -1,0 +1,20 @@
+
+******************
+PATRONES DE DISEÑO
+******************
+
+Para realizar un sitio web responsive ya existen diferentes formas o patrones definidos
+
+Estos patrones se pueden lograr con CSS GRID o FLEXBOX
+
+----------------------------------
+PATRONES DE RESPONSIVE WEB DESING
+----------------------------------
+
+- 2 colimnas iguales
+- 3 columnas iguales
+- Colum Drop
+- Con Sidebar
+- Layout Shifter
+- Mostly Fluid
+
