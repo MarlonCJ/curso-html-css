@@ -39,3 +39,40 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media(min-width: 768px){
+   
+    /* forma 1 */
+   
+    /* .tres-columnas{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .entrada-blog{
+        flex-basis: calc(33.3% - 1rem);
+   }  */
+
+   /* forma 2 */
+
+    /* .tres-columnas{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .entrada-blog{
+        flex: 0 0 calc(33.3% - 1rem);
+    } */
+
+
+    /* forma 3 */
+
+    .tres-columnas{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+
+}
